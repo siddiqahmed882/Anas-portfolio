@@ -15,6 +15,7 @@ const Contact = () => {
           data-netlify='true'
           name='contact-form'
         >
+          <input type='hidden' name='form-name' value='contact-form' />
           <div className='field__wrapper first-name__wrapper'>
             <label htmlFor='firstName'>First Name</label>
             <input type='text' name='firstName' id='firstName' />
