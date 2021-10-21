@@ -11,7 +11,7 @@ const About = () => {
         <div className='profile__card__body'>
           <img className='profile__img' src={profile} alt='' />
           <h3 className='profile__name'>Shaykh Anas</h3>
-          <p className='profile__lead'>Fontend Developer</p>
+          <p className='profile__lead'>Frontend Developer</p>
         </div>
         <div className='profile__card__footer'>
           <a

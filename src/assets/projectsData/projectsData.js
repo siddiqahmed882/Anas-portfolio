@@ -2,7 +2,6 @@ export const projectsData = [
   {
     id: 1,
     title: 'Weather App',
-    abstract: 'The weather of all countries is in your device now',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, ullam ex? Quam voluptates laudantium voluptas, facilis maiores enim sapiente fugiat.',
     imgUrl: 'project1.png',
@@ -12,7 +11,6 @@ export const projectsData = [
   {
     id: 2,
     title: 'Calculator',
-    abstract: 'The weather of all countries is in your device now',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, ullam ex? Quam voluptates laudantium voluptas, facilis maiores enim sapiente fugiat.',
     imgUrl: 'project1.png',
@@ -22,7 +20,6 @@ export const projectsData = [
   {
     id: 3,
     title: 'Task List',
-    abstract: 'The weather of all countries is in your device now',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, ullam ex? Quam voluptates laudantium voluptas, facilis maiores enim sapiente fugiat.',
     imgUrl: 'project1.png',

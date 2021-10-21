@@ -55,6 +55,22 @@ button {
   font-family: inherit;
 }
 
+label,
+input[type='text'],
+input[type='email'],
+textarea {
+  display: block;
+  font-size: inherit;
+  font-family: inherit;
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+textarea {
+  resize: vertical;
+}
+
 /* utilities */
 
 .container {
@@ -278,7 +294,8 @@ button {
 }
 
 @media screen and (max-width: 620px) {
-  .navbar .logo span {
+  .navbar .logo strong,
+  .navbar .logo span:first-of-type {
     display: none;
   }
 }

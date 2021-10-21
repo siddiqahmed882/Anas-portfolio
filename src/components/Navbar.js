@@ -23,7 +23,9 @@ const Navbar = () => {
       <div className='container'>
         <nav className='navbar'>
           <div className='logo'>
-            <strong>Shaykh Anas&nbsp;</strong> <span>/ Frontend Developer</span>
+            <strong>Shaykh Anas</strong>
+            <span> / </span>
+            <span>Frontend Developer</span>
           </div>
           <button
             ref={hamburger}
